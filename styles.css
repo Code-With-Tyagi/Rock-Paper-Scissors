@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#rock,
+#paper,
+#scissors {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+#rock:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+
+}
+
+#paper:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+
+}
+
+#scissors:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+p {
+    font-size: 40px;
+}
+
+h1 {
+    background-color: #081b31;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.green {
+    background-color: green !important;
+}
+
+
+.result {
+    background-color: #081b31;
+    width: 500px;
+    height: 30px;
+    margin: 0 auto;
+    color: white;
+}
+
+.button {
+    background-color: #1e1e1e;
+    color: #f44336;
+    border: 2px solid #f44336;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px white;
+}
